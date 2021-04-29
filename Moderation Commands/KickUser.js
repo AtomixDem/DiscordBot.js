@@ -1,5 +1,5 @@
 /*
-Discord bot script for send a auto message
+Discord bot script for kick a user
 Script by AtomixDem -> https://github.com/AtomixDem
 */
 
