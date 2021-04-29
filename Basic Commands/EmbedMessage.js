@@ -17,6 +17,11 @@ var embed = new Discord.MessageEmbed()
     .setAuthor("Name", "IMAGE_LINK", "LINK") // Embed name + link image + name link
     .setDescription("Questa è una descrizione!") // Embed description
     .setThumbnail("IMAGE_LINK") // Embed cover (paste a link)
+
+    .addField("Title1", "Content1", false)
+    .addField("Title2", "Content2", true)
+    .addField("Title3", "Content3", true)
+
     .setImage("IMAGE_LINK") // Embed image (paste a link)
     .setFooter("Follow me on GitHub!", "IMAGE_LINK") // Embed Footer
     .setTimestamp(); // Embed send time
