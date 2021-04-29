@@ -14,7 +14,7 @@ function currentTime(){
     var hour = new Date().getHours();
     var minutes = new Date().getMinutes();
 
-    var channel = client.channels.cache.get("837230714063421461"); // Channel ID where the bot send the message
+    var channel = client.channels.cache.get("CHANNEL_ID"); // Channel ID where the bot send the message
     if (hour == 16 && minutes == 00) { // Hours and minutes when the bot send the message
         channel.send("Notify!") // Message bot
     }
