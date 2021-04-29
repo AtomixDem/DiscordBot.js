@@ -10,5 +10,5 @@ client.login("PASTE YOUR TOKEN HERE"); // Paste your Token Bot here
 
 // Commands
 client.on("guildMemberAdd", (member) => {
-    client.channels.cache.get("812232342977380385").send("Welcome " + member.toString() + " to **" + member.guild.name + "**! Member **#" + member.guild.memberCount + "**", {files: ["Welcome.jpg"]}); // Welcome message
+    client.channels.cache.get("CHANNEL_ID").send("Welcome " + member.toString() + " to **" + member.guild.name + "**! Member **#" + member.guild.memberCount + "**", {files: ["Welcome.jpg"]}); // Welcome message
 })
