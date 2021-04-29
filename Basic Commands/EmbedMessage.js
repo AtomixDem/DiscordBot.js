@@ -9,7 +9,6 @@ const client = new Discord.Client();
 client.login("PASTE YOUR TOKEN HERE"); // Paste your Token Bot here
 
 // Commands
-
 var embed = new Discord.MessageEmbed()
     .setColor("#ff0000") // Embed color
     .setTitle("Title") // Embed Title
