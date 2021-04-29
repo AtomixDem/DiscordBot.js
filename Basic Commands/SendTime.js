@@ -1,5 +1,5 @@
 /*
-Discord bot script for basic commands
+Discord bot script for send time
 Script by AtomixDem -> https://github.com/AtomixDem
 */
 
