@@ -8,8 +8,6 @@ Discord bot script for ban a user
 Script by AtomixDem -> https://github.com/AtomixDem
 */
 
-
-
 require('dotenv').config();
 const { Client } = require('discord.js');
 const client = new Client();
